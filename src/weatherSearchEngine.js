@@ -70,7 +70,7 @@ export default function WeatherSearchEngine() {
         </a>
         , is open-sourced on{" "}
         <a
-          href="https://github.com/johnsonj70/react_weather_project"
+          href="https://github.com/johnsonj70/weatherSearchEngine"
           target="_blank"
           rel="noreferrer"
         >
