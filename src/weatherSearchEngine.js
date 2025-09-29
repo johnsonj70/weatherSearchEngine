@@ -70,14 +70,14 @@ export default function WeatherSearchEngine() {
         </a>
         , is open-sourced on{" "}
         <a
-          href="https://github.com/johnsonj70/Vanilla-Weather/tree/main"
+          href="https://github.com/johnsonj70/react_weather_project"
           target="_blank"
           rel="noreferrer"
         >
           GitHub
         </a>{" "}
         and website hosted on{" "}
-        <a href="https://j-vanilla-weather.netlify.app/" target="_blank" rel="noreferrer">
+        <a href="https://jj-weathersearchengine.netlify.app/" target="_blank" rel="noreferrer">
           Netlify
         </a>
       </footer>
