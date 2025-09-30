@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles.css';
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
 import reportWebVitals from './reportWebVitals';
-import WeatherSearchEngine from './weatherSearchEngine';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <WeatherSearchEngine />
+    <App />
   </React.StrictMode>
 );
 
