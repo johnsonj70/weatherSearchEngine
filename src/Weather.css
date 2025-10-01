@@ -40,15 +40,18 @@ body {
   font-weight: bold;
   color: rgb(33, 33, 33);
   font-size: 64px;
-  line-height: 64px;
+  line-height: 54px;
   font-weight: 400;
 }
 
-.Weather img {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
+.Weather canvas {
+  margin-right: 5px;
+  margin-top: 5px;
   display: inline-block;
+}
+
+canvas icon {
+  padding-top: 10px;
 }
 
 .Weather footer {
