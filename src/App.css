@@ -23,4 +23,10 @@
   top: -32px;
 }
 
+.App .signature {
+  text-align: center;
+  width: 100%;
+  margin: auto 0;
+}
+
 

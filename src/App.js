@@ -7,8 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York" />
-
-        <footer className="signature">
+      <div className="signature">
+        <footer ClassName="text-align-center">
           This project was coded by{" "}
           <a
             href="https://github.com/johnsonj70"
@@ -34,6 +34,7 @@ export default function App() {
             hosted on Netlify
           </a>
         </footer>
+        </div>
       </div>
     </div>
   );
