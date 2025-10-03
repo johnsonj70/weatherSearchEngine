@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import { WeatherSvg } from "weather-icons-animated";
 
 export default function WeatherInfo(props) {
   return (
@@ -11,17 +12,20 @@ export default function WeatherInfo(props) {
         <li>
           <FormattedDate date={props.data.date} />
         </li>
-        <li className="text-capitalize">{props.data.description}</li>
+        <li className="text-capitalize">{props.data.condition}</li>
       </ul>
       <div className="row mt-3">
         <div className="col-6">
           <div className="clearfix">
-            <div className="float-left">
-              <WeatherIcon code={props.data.condition.icon_url} size={52} />
-            </div>
 
-            <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature.current} />
+            <div className="container">
+               <img
+                  src={WeatherSvg}
+                  alt={CodeMapping(code)}
+                  className="current_icon"
+               />
+                <WeatherTemperature celsius={props.data.temperature.current} />
+                <WeatherIcon code={<WeatherSvg state ="partly-cloudy" size={size}></WeatherSvg>} />
             </div>
           </div>
         </div>
@@ -34,4 +38,4 @@ export default function WeatherInfo(props) {
       </div>
     </div>
   );
-}
+} 
